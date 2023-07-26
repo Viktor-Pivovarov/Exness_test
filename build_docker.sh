@@ -4,7 +4,7 @@
 IMAGE_NAME="stockquote_image"
 
 # Go to your script directory
-cd "/Users/PivovarovVD/Documents/Exness_test"
+cd "your directory"
 
 # Create a Dockerfile if it doesn't exist
 if [ ! -f Dockerfile ]; then
