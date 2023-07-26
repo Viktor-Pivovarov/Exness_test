@@ -1,0 +1,7 @@
+__pycache__/
+exe/
+Dockerfile
+.DS_Store
+*.db
+*.csv
+*.png

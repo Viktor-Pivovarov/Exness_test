@@ -1,0 +1,11 @@
+version: '3'
+services:
+  script_worker:
+    build: .
+    volumes:
+      - ./data:/app/data
+    image: stockquote_image
+    environment:
+      - SYMBOLS=AAPL,MSFT,GOOGL
+      - EXPORT_CSV=true
+      - EXPORT_PLOT=true
